@@ -19,9 +19,9 @@
 #mainimg {
     background: url(../Image/8.png);
     width: 90vw;
-    height: 400px;
+    height: 450px;
     margin-top: 30px;
-    background-color: red;
+    background-color: #166534;
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 10px;
@@ -43,7 +43,7 @@
     margin-left: 10px;
 }
 
-#under{
+#under {
     text-decoration: underline;
     text-decoration-color: #166534;
     text-decoration-thickness: 5px;
@@ -58,7 +58,9 @@
     background-color: #166534;
     padding: 30px 50px;
     border-radius: 10px;
+    width: 150%;
 }
+
 #cardMain2 {
     color: black;
     width: 50%;
@@ -66,7 +68,8 @@
     border-radius: 10px;
 }
 
-#cardMain2 h5{
+#cardMain2 h5 {
+    font-size: 17px;
     font-weight: 300;
 }
 
@@ -84,10 +87,11 @@
     font-weight: 300;
 }
 
-#cimg{
+#cimg {
     width: 100%;
     border-radius: 10px;
 }
+
 #cMain {
     background-color: #ffffff;
     padding: 10px 10px;
@@ -101,59 +105,77 @@
 }
 
 #cMain h4 {
-    margin:20px 20px 0px 20px;
+    margin: 20px 20px 0px 20px;
     font-size: 18px;
     font-weight: 600;
 }
 
 #cMain h5 {
     font-size: 15px;
-    margin:10px 20px 20px 20px;
+    margin: 10px 20px 20px 20px;
     font-weight: 300;
 }
 
-#navtext2{
+#navtext2 {
     font-weight: 500;
 }
 
-#input{
+#input {
     margin-left: 5px;
     padding: 5px 20px;
 }
 
-#btn{
-    background:#166534;
-    color:white;
-    padding:5px 30px;
+#btn {
+    background: #166534;
+    color: white;
+    padding: 5px 30px;
     border-radius: 5px;
     border-color: none;
-}
-#btn:hover{
-    background:#178541;
 }
 
-#btn1{
-    background:#ffffff;
-    color:#000000;
-    padding:5px 30px;margin-right: 40PX;
+#btn:hover {
+    background: #178541;
+}
+
+#btn1 {
+    background: #ffffff;
+    color: #000000;
+    padding: 5px 30px;
+    margin-right: 40PX;
     border-radius: 5px;
     border-color: none;
 }
-#btn1:hover{
-    background:#178541;
+
+#btn1:hover {
+    background: #178541;
     color: WHITE;
 }
 
-#maincontact{
+#maincontact {
     background-color: #ffffff;
     padding: 0 5% 7% 5%;
     width: 70%;
     border-radius: 10px;
-    margin-top: 10%;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#mainimg2 {
+
+    background: url(../Image/12.jpg);
+    width: 90vw;
+    height: 400px;
+    margin-top: 30px;
+    background-color: red;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
 }
 @media only screen and (max-width: 600px) {
     #cardsection {
         flex-wrap: wrap
     }
+}
+
+body{
+    background-color: #000000;
 }

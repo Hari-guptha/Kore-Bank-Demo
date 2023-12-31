@@ -6,6 +6,7 @@ import Guidance from '../assets/Image/icons/Guidance.svg'
 import Home from '../assets/Image/9.jpg'
 import borrow from '../assets/Image/10.jpg'
 import save from '../assets/Image/11.jpg'
+import card from '../assets/Image/Card.png'
 
 import edu from '../assets/Image/icons/edu.svg'
 import comment from '../assets/Image/icons/comment.svg'
@@ -13,12 +14,15 @@ import guide from '../assets/Image/icons/guide.svg'
 import inov from '../assets/Image/icons/inov.svg'
 import kids from '../assets/Image/icons/kids.svg'
 import Program from '../assets/Image/icons/Program.svg'
+import Phone from '../assets/Image/icons/phone.svg'
+import reward from '../assets/Image/icons/reward.svg'
+import wallet from '../assets/Image/icons/wallet.svg'
 
 const Body = () => {
     return (
-        <div style={{ margin: "0px 5%" }}>
+        <div style={{ padding: "0px 5%",background:"white" }}>
             <div style={{ display: "flex", justifyContent: "center" }}>
-                <div id='mainimg'>
+                <div id='mainimg' >
                 </div>
             </div>
 
@@ -42,6 +46,23 @@ const Body = () => {
                         <h5>Real-time notifications and alerts for every transaction, offering enhanced security and helping customers stay on top of their financial activities. </h5>
                     </div>
                 </div>
+                <div id='cardsection' style={{ display: "flex", gap: 20, color: "white", paddingTop: "3%" }}>
+                    <div id='cardMain'>
+                        <img src={reward} alt="support" id='icon' />
+                        <h4>Rewards and Loyalty Programs</h4>
+                        <h5>Incentives such as cashback, rewards points, or discounts for using specific banking services.</h5>
+                    </div>
+                    <div id='cardMain'>
+                        <img src={wallet} alt="support" id='icon' />
+                        <h4>Digital Wallet Integratione</h4>
+                        <h5>Integration with digital wallets and contactless payment options for seamless transactions.</h5>
+                    </div>
+                    <div id='cardMain'>
+                        <img src={Phone} alt="support" id='icon' />
+                        <h4>Online Banking and Mobile Apps</h4>
+                        <h5>Access to accounts, transactions, and services through secure online portals and mobile applications.</h5>
+                    </div>
+                </div>
             </div>
 
             <div style={{ marginTop: "6%" }}>
@@ -50,7 +71,7 @@ const Body = () => {
                 <div id='cardsection' style={{ display: "flex", gap: 20, color: "black", paddingTop: "3%" }}>
                     <div id='cMain'>
                         <img src={Home} alt="support" id='cimg' />
-                        <h4>DCU REALTY</h4>
+                        <h4>KORE REALTY</h4>
                         <h5>Set a more accurate home price with a free market analysis</h5>
                     </div>
                     <div id='cMain'>
@@ -66,7 +87,7 @@ const Body = () => {
                 </div>
             </div>
 
-            <div style={{ display: "flex", justifyContent: "center", margin: "10% 0px" }}>
+            <div style={{ display: "flex", justifyContent: "center", margin: "7% 0px" }}>
                 <div style={{ background: "#166534", display: 'flex', justifyContent: "space-between", width: "90vw", borderRadius: "20px" }}>
                     <div id='content1'>
                         <h2 style={{ fontSize: "30px", fontWeight: 400 }}>
@@ -79,7 +100,14 @@ const Body = () => {
                     <img id="chatimg" src={chatbot} alt="chatbot" />
                 </div>
             </div>
-            <div >
+            <div style={{ display: "flex" }}>
+                <div>
+                <h4 id="title1"><span id="under">Sma</span>rt Credit Card Management</h4>
+                <h2 style={{ paddingTop: "20px", fontWeight: 300, marginLeft: "10px",width:"90%" }}>Discover the art of strategic spending and reward optimization to make the most out of your credit card perks, turning everyday purchases into exciting benefits.</h2>
+                </div>
+                <img src={card} alt="" />
+            </div>
+            <div style={{marginTop:"6%"}}>
                 <h4 id="title1"><span id="under">What</span> makes Digital Federal Credit Union Different?</h4>
                 <div id='cardsection' style={{ display: "flex", gap: 20, color: "white", paddingTop: "3%" }}>
                     <div id='cardMain2'>
@@ -114,6 +142,13 @@ const Body = () => {
                         <h4>EVERFI Program</h4>
                         <h5>Interactive modules on planning, saving, and borrowing to help you build your financial acumen.</h5>
                     </div>
+                </div>
+            </div>
+            <h4 id="title1" style={{ marginTop: "10%" }}><span id="under">Our</span> Bank</h4>
+            <h2 style={{ paddingTop: "20px", fontWeight: 300, marginLeft: "10px" }}>
+                The Kore Bank building seamlessly blends modern design with classical elegance, featuring a harmonious fusion of glass facades, sleek lines, and timeless architectural elements that redefine the urban landscape.</h2>
+            <div style={{ display: "flex", justifyContent: "center",paddingBottom:"5%" }}>
+                <div id='mainimg2'>
                 </div>
             </div>
         </div>

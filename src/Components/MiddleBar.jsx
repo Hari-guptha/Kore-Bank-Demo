@@ -2,7 +2,7 @@ import React from 'react'
 
 const MiddleBar = () => {
     return (
-        <div style={{padding:"20px 0px" }}>
+        <div style={{padding:"20px 0px",background:"white"}}>
             <div style={{ display: "flex", gap: 40 }}>
             <h4 style={{marginLeft:"7%"}} id="navtext2">INSURANCE</h4>
             <h4 id="navtext2">REALTY</h4>

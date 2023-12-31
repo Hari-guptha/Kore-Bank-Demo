@@ -1,0 +1,91 @@
+.kore-chat-window .kore-chat-body {
+    background-image: url(./src/assets/Image/bg3.png);
+    background-size: cover;
+}
+
+.kore-chat-window .kore-chat-header {
+    background-color: #166534 !important;
+    background-size: contain !important;
+}
+
+.kore-chat-window .kore-chat-footer {
+    background-color: #166534 !important;
+    color: white !important;
+}
+
+.kore-chat-window ul.chat-container li .extra-info {
+    color: white !important;
+}
+
+.kore-chat-window{
+    background-color: white !important;
+    border-radius: 10px !important;
+    border-color: transparent !important;
+}
+
+.kore-chat-window.minimize .minimized-title{
+    background-color: #166534 !important;
+    color: white !important;
+}
+.kore-chat-window ul.chat-container li.fromOtherUsers .messageBubble {
+    color: rgb(255, 255, 255) !important;
+    font-size: 15px !important;
+    font-weight: 400 !important;
+    /* background-color: #166534 !important; */
+    border-color: transparent !important; 
+    background: url(./src/assets/Image/m.png) !important;
+    background-size: cover;
+    border-radius: 10px 10px 10px 0 !important;
+}
+
+.kore-chat-window ul.chat-container li.fromCurrentUser .messageBubble {
+    background-color: transparent !important;
+    font-size: 15px !important;
+    font-weight: 400 !important;
+
+}
+
+.kore-chat-window .kore-chat-header{
+    border-radius: 10px 10px 0 0 !important;
+}
+
+.kore-chat-window .kore-chat-footer{
+    border-radius: 0 0 10px 10px !important;
+}
+
+.kore-chat-window .listTmplContent .listTmplContentBox{
+    background: url(./src/assets/Image/m.png) !important;
+    background-size: cover;
+}
+
+button.reload-btn img,
+button.minimize-btn img,
+button.expand-btn img,
+button.close-btn img {
+    filter: brightness(0) invert(1) !important;
+}
+
+.kore-chat-window .buttonTmplContent .buttonTmplContentChild .quickReply{
+    background-color: #166534 !important;
+    border-color: transparent !important;
+}
+
+.kore-chat-window .buttonTmplContent .buttonTmplContentChild .quickReply:hover{
+    background-color: #228548 !important;
+}
+
+.kore-chat-window .listTmplContent .buyBtn{
+    color: #166534 !important;
+}
+
+.kore-chat-window .carousel{
+    background: url(./src/assets/Image/m.png) !important;
+    background-size: cover;
+    width: 100% !important;
+    border-radius: 10px !important;
+}
+
+.kore-chat-window.minimize .minimized{
+    background-color: #166534 !important;
+    padding: 10px !important;
+}
